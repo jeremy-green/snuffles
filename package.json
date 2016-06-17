@@ -1,0 +1,15 @@
+{
+  "name": "snuffles",
+  "version": "0.0.1",
+  "description": "Deploys Code. Rules World",
+  "main": "bot.js",
+  "dependencies": {
+    "botkit": "^0.2.0",
+    "config": "^1.21.0",
+    "moment": "^2.13.0",
+    "node-wit": "^3.3.2",
+    "request": "^2.72.0"
+  },
+  "author": "hello@jeremy.green",
+  "license": "MIT"
+}

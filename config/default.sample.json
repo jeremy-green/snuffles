@@ -1,0 +1,24 @@
+{
+  "token": "<SLACK_TOKEN>",
+  "debug": false,
+  "deployChannel": "<DEPLOY_CHANNEL>",
+  "restartTimeout": 5000,
+  "wit": {
+    "token": "<WIT_TOKEN>",
+    "confidence": 0.75,
+    "debug": false
+  },
+  "github": {
+    "token": "<AUTH_TOKEN>",
+    "REPO_NAME": "<PATH_TO_BRANCHES>"
+  },
+  "jenkins": {
+    "token": "<JENKINS_TOKEN>",
+    "username": "<JENKINS_USER>",
+    "protocol": "<JENKINS_PROTOCOL>",
+    "host": "<JENKINS_HOST>",
+    "pipelines": {
+      "REPO_NAME": "jenkins/<PATH_TO_RELEASE_JOB>/buildWithParameters"
+    }
+  }
+}
